@@ -1,4 +1,4 @@
-"""Testing for ExampleClass1."""
+"""Testing for ExampleClass1"""
 from typing import Generator
 import pytest
 from fair_python_package_template.example_class1 import ExampleClass1
