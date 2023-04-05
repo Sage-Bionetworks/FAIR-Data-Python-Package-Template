@@ -83,7 +83,7 @@ jobs:
           options: "--check --verbose"
 
       - name: Code formatting with pylint
-        run: poetry run pylint schematic_db/* tests/*
+        run: poetry run pylint fair_python_package_template/* tests/*
 
       - name: pytest
         run: poetry run pytest -vvs
