@@ -1,7 +1,7 @@
 """Put pytest fixtures here to be used by multiple test files"""
 from typing import Generator
 import pytest
-from fair_python_package_template.example_class1 import ExampleClass1
+from package.module1.example_class1 import ExampleClass1
 
 
 @pytest.fixture(scope="session", name="example_class1")
